@@ -54,7 +54,7 @@ function About() {
           className="md:flex-1 flex flex-col items-center"
         >
           <motion.img
-            src="/logo.png"
+            src={`${import.meta.env.BASE_URL}logo.png`}
             alt="Logo BET"
             className="h-72 w-auto mb-6 cursor-pointer"
             whileHover={{ scale: 1.1, filter: "drop-shadow(0 0 10px rgb(14 165 233))" }}

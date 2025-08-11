@@ -35,7 +35,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src="/logo.png"
+             src={`${import.meta.env.BASE_URL}logo.png`}
             alt="Logo BET"
             className="w-48 h-24 object-contain transition-transform duration-300 hover:scale-110"
           />
